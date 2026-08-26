@@ -1,0 +1,12 @@
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+xgboost==2.1.1
+lightgbm==4.5.0
+streamlit==1.38.0
+matplotlib==3.9.2
+imbalanced-learn==0.12.4
+pyarrow==17.0.0
+joblib==1.4.2
+kagglehub==0.3.3
+pytest==8.3.3

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/
+.gitignore
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+.pytest_cache/
+*.md

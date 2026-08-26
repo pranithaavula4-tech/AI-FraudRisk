@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Generated pipeline artifacts (rebuilt automatically -- see app.py::ensure_artifacts,
+# or by running `python src/train.py && python src/evaluate.py`). Not committed so the
+# repo stays small and every deploy always trains fresh, reproducible artifacts.
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# pytest
+.pytest_cache/
