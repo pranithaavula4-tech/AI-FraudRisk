@@ -1,12 +1,20 @@
-pandas==2.2.3
-numpy==1.26.4
-scikit-learn==1.5.2
-xgboost==2.1.1
-lightgbm==4.5.0
+pandas==2.2.3; python_version < "3.14"
+pandas>=2.3.0; python_version >= "3.14"
+numpy==1.26.4; python_version < "3.14"
+numpy>=2.2.0; python_version >= "3.14"
+scikit-learn==1.5.2; python_version < "3.14"
+scikit-learn>=1.6.0; python_version >= "3.14"
+xgboost==2.1.1; python_version < "3.14"
+xgboost>=2.1.4; python_version >= "3.14"
+lightgbm==4.5.0; python_version < "3.14"
+lightgbm>=4.6.0; python_version >= "3.14"
 streamlit==1.38.0
-matplotlib==3.9.2
-imbalanced-learn==0.12.4
-pyarrow==17.0.0
+matplotlib==3.9.2; python_version < "3.14"
+matplotlib>=3.10.0; python_version >= "3.14"
+imbalanced-learn==0.12.4; python_version < "3.14"
+imbalanced-learn>=0.14.0; python_version >= "3.14"
+pyarrow==17.0.0; python_version < "3.14"
+pyarrow>=18.0.0; python_version >= "3.14"
 joblib==1.4.2
 kagglehub==0.3.3
 pytest==8.3.3
